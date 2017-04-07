@@ -19,19 +19,19 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 * Create a api-keys.ts file in app directory
 * In api-keys.ts place with your information:
 
-    `export var masterFirebaseConfig = {`
+    export var masterFirebaseConfig = {
 
-      `apiKey: "xxxx",`
+      apiKey: "xxxx",
 
-      `authDomain: "xxxx.firebaseapp.com",`
+      authDomain: "xxxx.firebaseapp.com",
 
-      `databaseURL: "https://xxxx.firebaseio.com",`
+      databaseURL: "https://xxxx.firebaseio.com",
 
-      `storageBucket: "xxxx.appspot.com",`
+      storageBucket: "xxxx.appspot.com",
 
-      `messagingSenderId: "xxxx"`
+      messagingSenderId: "xxxx"
 
-    `};`
+    };
 
 ## Planning
 
