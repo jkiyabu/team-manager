@@ -18,6 +18,16 @@ export class PlayerService {
     this.players.push(newPlayer);
   }
 
+  updatePlayer(localUpdatedPlayer) {
+    var playerEntryInFirebase = this.getPlayerById(localUpdatedPlayer.$key);
+    playerEntryInFirebase.update({name: localUpdatedPlayer.name, position: localUpdatedPlayer.position, description: localUpdatedPlayer.description});
+  }
+
+  deletePlayer(localDeletedPlayer) {
+    var playerEntryInFirebase = this.getPlayerById(localDeletedPlayer.$key);
+    playerEntryInFirebase.remove();
+  }
+
   getPlayerById(playerId: string) {
     return this.angularFire.database.object('players/' + playerId);
   }

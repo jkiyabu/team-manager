@@ -1,0 +1,13 @@
+<h4>Edit Player</h4>
+
+<label>Name:</label>
+<input [(ngModel)]="selectedPlayer.name">
+<br>
+<label>Position:</label>
+<input [(ngModel)]="selectedPlayer.position">
+<br>
+<label>Description:</label>
+<input [(ngModel)]="selectedPlayer.description">
+<br><br>
+<button class="btn btn-success" (click)="beginUpdatingPlayer(selectedPlayer)">Update</button>
+<button class="btn btn-danger" (click)="beginDeletingPlayer(selectedPlayer)">Delete</button>
