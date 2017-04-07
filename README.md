@@ -30,8 +30,8 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 ## Planning
 
 * Create router file
+* Create welcome component and routes that will  eventually display list of team players
 * Create about component
-* Create welcome component and routes that will eventually display list of team players
 * Create player model
 * Create player service
 * Create database with firebase
