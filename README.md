@@ -13,19 +13,32 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
 
-## Running unit tests
+## Setup firebase database
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+* Create a database with firebase
+* Create a api-keys.ts file in app directory
+* In api-keys.ts place with your information:
 
-## Running end-to-end tests
+    `export var masterFirebaseConfig = {`
+      `apiKey: "xxxx",`
+      `authDomain: "xxxx.firebaseapp.com",`
+      `databaseURL: "https://xxxx.firebaseio.com",`
+      `storageBucket: "xxxx.appspot.com",`
+      `messagingSenderId: "xxxx"`
+    `};`
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
+## Planning
 
-## Deploying to GitHub Pages
-
-Run `ng github-pages:deploy` to deploy to GitHub Pages.
-
-## Further help
-
-To get more help on the `angular-cli` use `ng help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+* Create router file
+* Create about component
+* Create welcome component and routes that will eventually display list of team players
+* Create player model
+* Create player service
+* Create database with firebase
+* List players on welcome page
+* Create admin component
+* Create add player component for admin
+* Create dynamic routes component to display information about an individual player
+* Create update component for admin
+* Create delete player function for admin
+* Create pipe to display players of different positions
