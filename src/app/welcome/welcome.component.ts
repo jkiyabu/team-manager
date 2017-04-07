@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Player } from '../player.model';
 
 @Component({
   selector: 'app-welcome',
