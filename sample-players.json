@@ -1,0 +1,14 @@
+{ "players": [{
+    "name": "Damian Lillard",
+    "position": "guard",
+    "description": "All star calibur point guard from Weber State University."
+    }, {
+    "name": "Mo Harkless",
+    "position": "forward",
+    "description": "Solid role player with good youth and upside. Traded to Portland from the Orlando Magic"
+    }, {
+    "name": "Jusif Nurkic",
+    "position": "center",
+    "description": "Young center from Bosnia."
+  }]
+}

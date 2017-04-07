@@ -20,11 +20,17 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 * In api-keys.ts place with your information:
 
     `export var masterFirebaseConfig = {`
+
       `apiKey: "xxxx",`
+
       `authDomain: "xxxx.firebaseapp.com",`
+
       `databaseURL: "https://xxxx.firebaseio.com",`
+
       `storageBucket: "xxxx.appspot.com",`
+
       `messagingSenderId: "xxxx"`
+
     `};`
 
 ## Planning
@@ -33,8 +39,8 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 * Create welcome component and routes that will  eventually display list of team players
 * Create about component
 * Create player model
-* Create player service
 * Create database with firebase
+* Create player service
 * List players on welcome page
 * Create admin component
 * Create add player component for admin
