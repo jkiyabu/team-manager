@@ -15,9 +15,8 @@
 }
 
 body {
-  font-family: monospace;
-  color: red;
   background-image: url('/public/images/wood.jpg');
+  background-size: cover;
 }
 
 body .jumbotron {

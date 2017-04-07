@@ -29,6 +29,8 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
     };
 
+* Sample data in sample-players.json can be imported into firebase
+
 ## Planning
 
 * Create router file

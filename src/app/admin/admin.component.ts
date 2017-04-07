@@ -18,8 +18,12 @@ export class AdminComponent implements OnInit {
   }
 
   submitForm(name: string, position: string, description: string) {
-    var newPlayer: Player = new Player(name, position, description);
-    this.playerService.addPlayer(newPlayer);
+    if(name === '' || position === '' || description === '') {
+      alert('Please enter all information!')
+    } else {
+      var newPlayer: Player = new Player(name, position, description);
+      this.playerService.addPlayer(newPlayer);
+    }
   }
 
 }
