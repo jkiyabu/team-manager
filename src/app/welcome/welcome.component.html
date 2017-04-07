@@ -1,6 +1,6 @@
 <h2>Click on a player to view more information</h2>
 <br>
-<div *ngFor="let player of players | async" class="panel panel-default">
+<div *ngFor="let player of players | async" class="panel panel-default" (click)="goToDetailPage(player)">
   <div class="panel-body">
     <h3>{{player.name}}</h3>
     <p>{{player.position}}</p>

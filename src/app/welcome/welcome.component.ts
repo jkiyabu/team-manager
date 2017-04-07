@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Player } from '../player.model';
 import { PlayerService } from '../player.service';
 import { AngularFire, FirebaseListObservable } from 'angularfire2';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-welcome',
@@ -13,10 +14,14 @@ import { AngularFire, FirebaseListObservable } from 'angularfire2';
 export class WelcomeComponent implements OnInit {
   players: FirebaseListObservable<any[]>;
 
-  constructor(private playerService: PlayerService) { }
+  constructor(private playerService: PlayerService, private router: Router) { }
 
   ngOnInit() {
     this.players = this.playerService.getPlayers();
   }
+
+  goToDetailPage(clickedPlayer) {
+   this.router.navigate(['players', clickedPlayer.$key]);
+ };
 
 }
