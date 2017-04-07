@@ -1,13 +1,9 @@
-# TeamManager
+# Basketball Team Manager
 
-This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.28.3.
+This app will allow the user to manage a basketball team.  The welcome page will display all current players and links to view more information about those players.  You can filter players by position, and the admin page will allow you to add, update, and remove players.
 
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
 
 ## Build
 
@@ -48,3 +44,9 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 * Create update component for admin
 * Create delete player function for admin
 * Create pipe to display players of different positions
+* Style with css
+
+### License
+*MIT
+
+Copyright (c) 2017 Jayeson Kiyabu All Rights Reserved.
