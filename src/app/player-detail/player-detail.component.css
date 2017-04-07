@@ -1,0 +1,15 @@
+.panel-heading {
+  background-color: black;
+  color: white;
+  text-shadow: -1px 0 #000000,0 1px #000000,1px 0 #000000,0 -1px #000000
+}
+.panel-title {
+  font-size: 200%;
+}
+
+.panel-body {
+  font-size: 200%;
+  color: white;
+  text-shadow: -1px 0 black,0 1px black,1px 0 black,0 -1px black;
+  font-weight: bolder;
+}

@@ -6,10 +6,11 @@
   <option value="center">centers</option>
 </select>
 <br><br>
+
 <div *ngFor="let player of players | async | position:filterByPosition" class="panel panel-default">
   <div class="panel-body">
-    <h3 (click)="goToDetailPage(player)">{{player.name}}</h3>
-    <p>{{player.position}}</p>
+    <h3 (click)="goToDetailPage(player)"><strong>{{player.name}}</strong></h3>
+    <h4><strong>{{player.position}}</strong></h4>
     <div *ngIf="currentRoute === '/admin'">
       {{player.description}}
       <hr>
@@ -17,11 +18,4 @@
     </div>
   </div>
 </div>
-
-<div *ngIf="currentRoute === '/'">
-  <footer class="footer">
-    <div class="container">
-      <a class="text-muted" routerLink="admin">Admin</a>
-    </div>
-  </footer>
-</div>
+<br><br>

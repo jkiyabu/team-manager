@@ -2,7 +2,42 @@
   position: fixed;
   bottom: 0;
   width: 100%;
-  height: 60px;
+  height: 40px;
   background-color: #f5f5f5;
   padding: 15px;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+body {
+  font-family: monospace;
+  color: red;
+  background-image: url('/public/images/wood.jpg');
+}
+
+body .jumbotron {
+  text-align: center;
+  background-image: url('/public/images/banner.png');
+  background-size: cover;
+  color: #dd6e00;
+  font-style: italic;
+  font-weight: bolder;
+  text-shadow: -1px 0 white,0 1px white,1px 0 white,0 -1px white;
+}
+
+body .panel {
+  background-image: url('/public/images/panel.png');
+  background-size: cover;
+  color: white;
+  text-shadow: -1px 0 black,0 1px black,1px 0 black,0 -1px black;
+}
+
+.btn {
+  background-color: black;
+  color: #dd6e00;
 }
