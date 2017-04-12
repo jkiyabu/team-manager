@@ -2,6 +2,13 @@
 
 This app will allow the user to manage a basketball team.  The welcome page will display all current players and links to view more information about those players.  You can filter players by position, and the admin page will allow you to add, update, and remove players.
 
+## Installation
+
+* `git clone <repository-url>`
+* `cd team-manager`
+* `npm install`
+* `bower install`
+
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
